@@ -1,0 +1,10 @@
+CREATE DATABASE VGS_BANK;
+
+USE VGS_BANK;
+
+CREATE TABLE customer (
+    ac_no INT AUTO_INCREMENT PRIMARY KEY,
+    cname VARCHAR(100) NOT NULL,
+    balance INT NOT NULL,
+    pass_code INT NOT NULL
+);
